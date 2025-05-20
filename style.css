@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2f1c6;
+    /* Cor de fundo suave */
+    color: #000000;
+}
+
+header {
+    background-color: #bbe45b;
+    padding: 1em;
+    text-align: center;
+}
+
+#meu-nome {
+    color: #794a0d;
+    font-size: 3em;
+    /* Cor diferente para o título */
+}
+
+#apresentacao {
+    padding: 1em;
+    text-align: center;
+}
+
+#bio {
+    font-size: 1.7em;
+    text-align: justify;
+    /* Parágrafo justificado e maior */
+}
+
+#hobbies {
+    padding: 3em;
+    text-align: center;
+}
+
+#hobbies ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 3em;
+    /* Espaçamento maior entre os itens da lista */
+}
+
+#imagem-hobby img {
+    max-width: 350px;
+    border-radius: 15px;
+    /* Bordas arredondadas na imagem */
+    display: block;
+    margin: auto;
+}
+
+#viagens {
+    padding: 0em;
+    text-align: center
+}
+
+#tabela-paises {
+    width: 10%;
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+#tabela-paises th,
+#tabela-paises td {
+    border: 1px solid #000000;
+    padding: 5em;  
+}
+
+#tabela-paises img {
+    max-width: 500px;
+    border-radius: 15px;
+    height: auto;
+}
+
+#botao-mensagem {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1em;
+    margin: 1px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+#mensagem {
+    font-size: 1.1em;
+    font-weight: bold;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #bbe45b;
+    position: static;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: #0400ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #2b64a0;
+    /* Mudança de cor no link ao passar o mouse */
+}
